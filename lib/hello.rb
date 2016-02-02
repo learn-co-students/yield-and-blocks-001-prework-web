@@ -1,6 +1,7 @@
-def hello_t
-
+def hello_t(things)
+  things.each do |thing|
+    if thing[/T/] != nil
+      puts "Hi, #{thing}"
+    end
+  end
 end
-
-# call your method here!
-
