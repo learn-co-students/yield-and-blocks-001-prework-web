@@ -1,4 +1,3 @@
-names =
 
 def hello_t(names)
   if block_given?
