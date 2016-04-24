@@ -8,6 +8,7 @@ def hello_t(hellos)
     hellos
   else
     puts "I wanted a block :("
+  end
 end
 
 # call your method here!
