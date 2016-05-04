@@ -13,4 +13,8 @@ def hello_t(array)
 end
 
 # call your method here!
-hello_t([1,2,3,4,5])
+hello_t([1,2,3,4,5]) do |name|
+  if name.start_with?("T")
+      puts "Hi, #{name}"
+  end
+end
