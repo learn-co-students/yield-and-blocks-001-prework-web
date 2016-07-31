@@ -1,6 +1,5 @@
-def hello_t
-
+def hello_t(array)
+  for name in array
+    yield(name)
+  end
 end
-
-# call your method here!
-
