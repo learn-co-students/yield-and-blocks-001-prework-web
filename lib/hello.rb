@@ -1,6 +1,17 @@
-def hello_t
+# def hello_t(arg)
+# 	homies = arg
+# 	homies.each do |name|
+#     if name.start_with?("T")
+#       puts "Hi, #{name}"
+# 		else
+# 			puts
+# 	end
+# end
 
+def hello_t(arg)
+	arg.each do |name|
+  if name.start_with?("T")
+    puts "Hi, #{name}"; end
+  end
 end
-
-# call your method here!
-
+# hello_t(array)
